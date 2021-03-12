@@ -14,6 +14,11 @@
   <a href="https://www.microsoft.com/de-de/">
     <img src="https://img.shields.io/badge/platform-Linux-red">
   </a>
+  
+  <a href="https://www.microsoft.com/de-de/">
+    <img src="https://img.shields.io/badge/platform-windows-blue">
+  </a>
+  
 </p>
 
 ![demo](https://dl.cyberamooz.com/0:/Pictures1/demo-sms.png)
