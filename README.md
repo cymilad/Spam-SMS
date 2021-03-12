@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="http://python.org">
-    <img src="https://img.shields.io/badge/python-v3-blue">
+    <img src="https://img.shields.io/badge/python-v3-yellow">
   </a>
 
   <a href="https://www.microsoft.com/de-de/">
@@ -22,3 +22,19 @@
 </p>
 
 ![demo](https://dl.cyberamooz.com/0:/Pictures1/demo-sms.png)
+
+### Operating Systems Tested
+
+- Windows
+- Kali Linux 2021
+
+
+### Installation On Kali Linux
+
+
+```bash
+git clone https://github.com/cymilad/Spam-SMS
+cd Spam-SMS
+pip3 install requests
+python3 sms.py
+```
