@@ -1,8 +1,4 @@
-<h1 align="center">
-  <br>
-  <a href="https://github.com/cymilad/Spam-SMS"><img src="https://dl.cyberamooz.com/0:/Pictures1/sms-spam.jpg" alt="Spam SMS"></a>
 
-</h1>
 
 <h4 align="center">A Tool For Send Spam Sms With Python</h4>
 
