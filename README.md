@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/python-v3-yellow">
   </a>
 
-  <a href="https://www.microsoft.com/de-de/">
+  <a href="https://www.kali.org">
     <img src="https://img.shields.io/badge/platform-Linux-red">
   </a>
   
