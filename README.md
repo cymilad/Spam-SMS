@@ -17,8 +17,9 @@
   
 </p>
 
-![demo](https://dl.cyberamooz.com/0:/Pictures1/demo-sms.png)
-![demo](https://dl.cyberamooz.com/0:/Pictures1/demo-sms-kali.PNG)
+![demo-image](./demo/demo-image.png)
+
+- **See demo video in demo folder.**
 
 ### Operating Systems Tested
 
