@@ -29,6 +29,6 @@ try:
     while True:
         requests.post(url,data=data)
         print("[+] Send SMS For Victim")
-        time.sleep(4)
+        time.sleep(120)
 except:
     print("\n[-] You Exit Tools !!")
