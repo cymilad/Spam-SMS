@@ -1,29 +1,34 @@
 # Dadmehr0 - Garfox
 import os
 import time
+import platform
 
 from sms_boomber import sms_boomber
 from colorama import Fore as c
+from colorama import Style as s
+from datetime import datetime
 
+commands_help = ['-h','-help']
+plat = platform.node()
 
 def banner():
         os.system("clear" or "cls")
 
         print(c.GREEN + """
    ___ ___  ___ ___ _    ___ __ _  ___
-  (_-</ _ \/ _ `/  ' \  (_-</  ' \(_-< Help: -h,-help
- /___/ .__/\_,_/_/_/_/ /___/_/_/_/___/"""+c.WHITE+"""V 1.6 Remaked Dadmehr0"""+c.GREEN+"""
-    /_/""")
+  (_-</ _ \/ _ `/  ' \  (_-</  ' \(_-< """+c.WHITE+"""Help: -h,-help"""+c.GREEN+"""
+ /___/ .__/\_,_/_/_/_/ /___/_/_/_/___/ """+c.WHITE+"""V 1.6 Remaked Dadmehr0"""+c.GREEN+"""
+    /_/"""+s.RESET_ALL+"""""")
 
         # Sleep time for printing banner as successufly
         time.sleep(3)
 
-commands_help = ['-h','-help']
 def lunch():
     def help():
         print('''Commands\t\t\tUsage\n\nclear\t\t\tfor clear terminal\nexit\t\t\tfor exit script\nstart\t\t\tTo start the script and give information\n''')
 
     while True:
+        print('['+plat+']-[spam sms]')
         terminal = input(" $ ")
 
         if terminal in commands_help:
