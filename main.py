@@ -6,7 +6,6 @@ import platform
 from sms_boomber import sms_boomber
 from colorama import Fore as c
 from colorama import Style as s
-from datetime import datetime
 
 commands_help = ['-h','-help']
 plat = platform.node()
@@ -24,8 +23,23 @@ def banner():
         time.sleep(3)
 
 def lunch():
+    def info():
+        print("""                             
+  ___ ___  ___ ___ _    ___ __ _  ___
+ (_-</ _ \/ _ `/  ' \  (_-</  ' \(_-<
+/___/ .__/\_,_/_/_/_/ /___/_/_/_/___/
+   /_/                               
+
+# Sms Spam Iran #
+Remastred : Dadmehr0 - Garfox
+Creator : Milad Ranjbar
+WebSite : CyberAmooz.Com
+Telegram : t.me/CyberAmooz
+Instagram : instagram.com/CyberAmooz
+....................................
+""")
     def help():
-        print('''Commands\t\t\tUsage\n\nclear\t\t\tfor clear terminal\nexit\t\t\tfor exit script\nstart\t\t\tTo start the script and give information\n''')
+        print('''Commands\t\t\tUsage\n\nclear\t\t\tfor clear terminal\nexit\t\t\tfor exit script\nstart\t\t\tTo start the script and give information\ninfo\t\t\tGet devlopers information''')
 
     while True:
         print('['+plat+']-[spam sms]')
@@ -37,8 +51,9 @@ def lunch():
             banner()
         elif terminal == 'exit':
             exit()
+        elif terminal == 'info':
+            info()
         elif terminal == 'start':
-
             print(c.CYAN + "Please enter your target phonenumber")
             phonenumber = input(c.WHITE + " $ ")
 

