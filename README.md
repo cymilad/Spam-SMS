@@ -38,8 +38,8 @@ python3 sms.py
 ```
 
 ### Contact us
-- WebSite : https://cyberamooz.com
-- Channel Telegram : https://t.me/cyberamooz
+- WebSite : https://cyberamooz.ir
+- Channel Telegram : https://t.me/cyberamooz_ir
 - Instagram : https://instagram.com/cyberamooz
 - Contact With Me : https://t.me/cymilad
 
